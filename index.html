@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <title>Labirint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-layout">
+        <div class="side-panel left">
+            <h1>Labirint</h1>
+        </div>
+
+        <div class="center-panel">
+            <div class="maze-container">
+                <canvas id="mazeCanvas" width="484" height="484"></canvas>
+            </div>
+            <div class="treasure-area">
+                <img src="img/zaklad.png" alt="Zaklad" class="treasure-img">
+            </div>
+        </div>
+
+        <div class="side-panel right">
+            <button id="solveBtn" class="game-btn">Reši labirint</button>
+            <button id="resetBtn" class="game-btn">Ponovi</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
