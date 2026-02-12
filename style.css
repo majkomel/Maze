@@ -1,13 +1,5 @@
 body {
-    background-image: url('img/ozadje.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 20px;
-    font-family: sans-serif;
-    min-height: 100vh;
+
 }
 
 /* Glavna razporeditev v treh stolpcih */
@@ -66,6 +58,7 @@ canvas {
     height: 50px; /* Prilagodi velikost slike zaklada */
     width: auto;
 }
+
 
 /* Gumbi */
 .game-btn {
